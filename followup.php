@@ -1,6 +1,6 @@
 <?php
   include_once("conn.php");
-  $query = "SELECT * FROM `enquiry`";
+  $query = "SELECT * FROM `inquiry`";
   $run = mysqli_query($conn,$query);
 
   if(@$_GET['id'])

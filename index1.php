@@ -1,9 +1,9 @@
 <?php
-  // include_once('conn.php');
-  // $date = date('Y-m-d');
-  // $qry = "SELECT * FROM `followup` WHERE `expected_join_date` = '$date'";
-  // $res = mysqli_query($conn,$qry);
-  // $count = mysqli_num_rows($res);
+  include_once('conn.php');
+  $date = date('Y-m-d');
+  $qry = "SELECT * FROM `followup` WHERE `expected_join_date` = '$date'";
+  $res = mysqli_query($conn,$qry);
+  $count = mysqli_num_rows($res);
 ?>
 <!DOCTYPE html>
 <html lang="en">
